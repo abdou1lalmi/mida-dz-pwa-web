@@ -1,0 +1,17 @@
+{
+  "name": "MIDA DZ — Algerian Kitchen Notes",
+  "short_name": "MIDA DZ",
+  "description": "An offline-ready Algerian recipe companion.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5efe2",
+  "theme_color": "#243428",
+  "icons": [
+    {
+      "src": "/manus-storage/mida-dz-logo_adcc1e0c.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
