@@ -1,0 +1,7 @@
+- [x] Audit all user-facing PWA text and identify shared translation keys.
+- [x] Add English, French, and Arabic dictionaries with a persisted language preference.
+- [x] Add a visible language selector to the app shell and profile controls.
+- [x] Apply Arabic right-to-left document direction and layout-safe alignment.
+- [x] Test Home, Discover, Saved, recipe detail, and Cooking Mode in every language.
+- [x] Validate the build and capture responsive proof for desktop and iPhone breakpoints.
+- [ ] Checkpoint the revision and publish the source update.
