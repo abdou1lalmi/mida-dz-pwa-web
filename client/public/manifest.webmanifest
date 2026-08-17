@@ -4,11 +4,11 @@
   "description": "An offline-ready Algerian recipe companion.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f5efe2",
-  "theme_color": "#243428",
+  "background_color": "#F4DCC8",
+  "theme_color": "#F4DCC8",
   "icons": [
     {
-      "src": "/manus-storage/mida-dz-logo_adcc1e0c.png",
+      "src": "/manus-storage/mida-dz-kiln-mark_a839b1c3.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

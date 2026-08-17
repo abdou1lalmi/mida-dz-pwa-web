@@ -1,9 +1,9 @@
 /**
- * MIDA DZ — Saffron Field Notes recipe card.
- * Keeps food imagery tactile while respecting selected language and Arabic RTL reading order.
+ * MIDA DZ — Algerian Gastronomic Modernism recipe card.
+ * Uses a restrained ceramic material surround while preserving real food imagery and RTL-safe content flow.
  */
 import { Clock3, Heart, MapPin } from "lucide-react";
-import type { Recipe } from "@/data/recipes";
+import { recipeFrameImage, type Recipe } from "@/data/recipes";
 import { categoryLabel, difficultyLabel, type Language, regionLabel, recipeDescription, recipeSecondaryTitle, recipeTitle } from "@/lib/i18n";
 
 type RecipeCardProps = {
@@ -18,6 +18,7 @@ type RecipeCardProps = {
 export function RecipeCard({ recipe, language, saved, onOpen, onToggleSave, featured = false }: RecipeCardProps) {
   const title = recipeTitle(recipe, language);
   return <article className={`recipe-card ${featured ? "recipe-card--featured" : ""}`}>
+    <span className="recipe-card__material" aria-hidden="true" style={{ backgroundImage: `url(${recipeFrameImage})` }} />
     <button className="recipe-card__image-button" onClick={() => onOpen(recipe)} aria-label={`Open ${title}`}>
       <img src={recipe.image} alt="" className="recipe-card__image" />
       <span className="recipe-card__image-scrim" />

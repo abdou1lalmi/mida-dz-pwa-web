@@ -21,11 +21,13 @@ export type Recipe = {
   tags: string[];
 };
 
-export const heroImage = "/manus-storage/mida-dz-hero_2066a330.jpg";
-export const cookingImage = "/manus-storage/mida-dz-cooking_c26ec23f.jpg";
+// Algerian Gastronomic Modernism: bespoke editorial food and material assets.
+export const heroImage = "/manus-storage/mida-dz-premium-hero_57ef5366.jpg";
+export const cookingImage = "/manus-storage/mida-dz-cooking-atmosphere_d36f8912.jpg";
 export const msemenImage = "/manus-storage/mida-dz-msemen_037aa498.jpg";
 export const chakchoukaImage = "/manus-storage/mida-dz-chakchouka_ddffa6a8.jpg";
-export const logoImage = "/manus-storage/mida-dz-logo_adcc1e0c.png";
+export const logoImage = "/manus-storage/mida-dz-kiln-mark_a839b1c3.png";
+export const recipeFrameImage = "/manus-storage/mida-dz-recipe-frame_4d329230.jpg";
 
 export const recipes: Recipe[] = [
   {
