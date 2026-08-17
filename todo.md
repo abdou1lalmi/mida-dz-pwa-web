@@ -11,4 +11,4 @@
 - [x] Create and export a selective premium asset set with museum-grade food art direction and material restraint.
 - [x] Rebuild the app shell, content surfaces, cards, controls, and screens with the new system.
 - [x] Validate desktop, mobile, Arabic RTL, and interactive states; refine the visual result.
-- [ ] Save the redesign checkpoint, publish it, and sync the source repository.
+- [x] Save the redesign checkpoint, publish it, and sync the source repository.
