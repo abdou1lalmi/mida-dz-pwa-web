@@ -22,12 +22,14 @@ export type Recipe = {
 };
 
 // Algerian Gastronomic Modernism: bespoke editorial food and material assets.
-export const heroImage = "/manus-storage/mida-dz-premium-hero_57ef5366.jpg";
-export const cookingImage = "/manus-storage/mida-dz-cooking-atmosphere_d36f8912.jpg";
-export const msemenImage = "/manus-storage/mida-dz-msemen_037aa498.jpg";
-export const chakchoukaImage = "/manus-storage/mida-dz-chakchouka_ddffa6a8.jpg";
-export const logoImage = "/manus-storage/mida-dz-kiln-mark_a839b1c3.png";
-export const recipeFrameImage = "/manus-storage/mida-dz-recipe-frame_4d329230.jpg";
+const asset = (name: string) => `${import.meta.env.BASE_URL}assets/${name}`;
+
+export const heroImage = asset("mida-dz-premium-hero.jpg");
+export const cookingImage = asset("mida-dz-cooking-atmosphere.jpg");
+export const msemenImage = asset("mida-dz-msemen.jpg");
+export const chakchoukaImage = asset("mida-dz-chakchouka.jpg");
+export const logoImage = asset("mida-dz-kiln-mark.png");
+export const recipeFrameImage = asset("mida-dz-recipe-frame.jpg");
 
 export const recipes: Recipe[] = [
   {
